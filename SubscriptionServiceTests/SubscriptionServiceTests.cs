@@ -117,7 +117,7 @@ namespace SubscriptionServiceTests
         
         /// <summary>
         /// DeactivateExpiredMembers:
-        /// Member.IsActive should be set to false
+        /// Member.IsActive should not be set to false
         /// when the member is not expired (Member.SubscriptionEnd is more than DateTime.Now)
         /// </summary>
         [Fact]
